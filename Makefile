@@ -17,3 +17,6 @@ all:
 	sudo bash -c 'echo M3_HOME=\$$M3 >> /etc/profile.d/env_vars.sh'
 	sudo bash -c 'echo PATH=\$$PATH:/opt/google/google_appengine:/usr/local/share/google/google-cloud-sdk/bin:\$$M3/bin >> /etc/profile.d/env_vars.sh'
 	sudo bash -c 'echo PATH=\$$PATH:/opt/google/appengine-java-sdk-1.9.27/bin:/usr/local/share/google/google-cloud-sdk/bin:\$$M3/bin >> /etc/profile.d/env_vars.sh'
+	echo "source '/usr/local/share/google/google-cloud-sdk/completion.bash.inc'" >> ~/.bashrc
+	
+
